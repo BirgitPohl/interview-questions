@@ -1,3 +1,3 @@
-# Algorithms and Datastructure
+# Algorithms and Data Structure
 
 ## Pick your favorite sorting algorithm and explain it to me as if I was a non-technical person or student in 1st semester.

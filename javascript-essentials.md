@@ -5,13 +5,13 @@
 ## Can you explain `Closures` to me?
 [Mozilla Developer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
 
-    A closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment). In other words, a closure gives you access to an outer function’s scope from an inner function. In JavaScript, closures are created every time a function is created, at function creation time.
+  A closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment). In other words, a closure gives you access to an outer function’s scope from an inner function. In JavaScript, closures are created every time a function is created, at function creation time.
 
 ## What is currying?
 
 [Currying Partials](https://javascript.info/currying-partials)
 
-    Currying is a transform that makes f(a,b,c) callable as f(a)(b)(c). JavaScript implementations usually both keep the function callable normally and return the partial if the arguments count is not enough.
+Currying is a transform that makes f(a,b,c) callable as f(a)(b)(c). JavaScript implementations usually both keep the function callable normally and return the partial if the arguments count is not enough.
 
 Currying allows us to easily get partials. As seen in a logging example, after currying the three argument universal `function log(date, importance, message)` gives us partials when called with one argument (like `log(date)`) or two arguments (`like log(date, importance)`).
 
@@ -47,12 +47,12 @@ alert( curriedSum(1)(2)(3) ); // 6, full currying
 # Memoization
 
 ## Given a recursive function call, what could you use in Javascript to optimize this?
-    MEMOIZATION
+MEMOIZATION
 
 ## When would you use memoize function?
-    When computing is very expensive.
-    Saving time and computing power.
-    Re-use of already calculated results.
+When computing is very expensive.
+Saving time and computing power.
+Re-use of already calculated results.
 
 <br><br>
 

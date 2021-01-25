@@ -32,7 +32,7 @@ When would you use Cloud functions and when App Engine?
 When would you use Firebase over GCP?
 
 
-General to Cloud Platfoms
+General to Cloud Platforms
 Explain to me event streaming in cloud platforms
 What makes serverless functions so powerful?
 
