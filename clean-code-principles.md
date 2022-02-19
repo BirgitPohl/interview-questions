@@ -19,12 +19,18 @@ Functionality can be altered by the consumer by means of passing configurations 
 Can be over engineering, could introduce unnecessary complexity.
     
 
+## What is your idea of Clean Code?
+
 ## In what kind of software aiming to follow open–closed principle is especially valuable?
 Framework kind of software.
 
 Widely reused code, with larger consumer base.
 
 When breaking changes are expensive, the extra complexity introduced by making things configurable and dynamic is more likely to pay off.
+
+## Do you know the S.O.L.I.D. principle?
+
+## Do you know the Separation of Concerns principle?
 
 ## What does Single Responsibility Principle mean?
 There is only one thing a function or method does.
@@ -35,3 +41,5 @@ Maybe a change could have been avoided by allowing extendability, by config? May
 
 ## Do you have any non-mainstream views in programming practices?
 Your expectations
+
+

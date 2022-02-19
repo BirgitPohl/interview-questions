@@ -4,3 +4,5 @@
 #TODO Please, describe what you expect here
 
 ## Can you explain to me the terms unit, integration, e2e and fuzzy testing?
+
+## What is a smoke test?

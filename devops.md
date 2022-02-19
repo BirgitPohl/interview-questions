@@ -1,5 +1,13 @@
 # Devops
 
+## CI/CD
+
+### What kind of build steps would you define writing a pipeline?
+TODO answer here
+
+### Do you have experience with Kubernetes Deployments and how it works?
+TODO answer here
+
 # AWS
 
 ## SHORT:

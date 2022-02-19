@@ -39,3 +39,21 @@ Compare expectations from the candidate with values of the company.
 ## Do you think your previous companies had a problem with gender diversity?
 
 ## How do you keep yourself updated?
+
+<br><br>
+
+# Communication
+
+## What if you get stuck during the sprint?
+
+1.  Research?
+2. Ask team members?
+
+## How do you solve problems under time pressure?
+1. Development triangle: STR-model: Scope, Time, Resources
+2. Re-thinking the Scope?
+3. MVP thinking?
+4. Communication to PO and team members?
+
+## What's your first approach to find solutions to a new problem on a general level? 
+1. Methodology?
