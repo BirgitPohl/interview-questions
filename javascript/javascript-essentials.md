@@ -2,6 +2,48 @@
 
 ## What is the difference between var, let and const?
 
+### var
+Scope: Function-scoped. If declared inside a function, it is accessible within that function. If declared outside, it is globally scoped.
+Hoisting: Variables declared with var are hoisted to the top of their scope and initialized with undefined.
+Re-declaration: Can be re-declared within the same scope without errors.
+
+### let
+Scope: Block-scoped. It is only accessible within the block (e.g., {}) where it is declared.
+Hoisting: Variables declared with let are hoisted but not initialized. Accessing them before declaration results in a ReferenceError.
+Re-declaration: Cannot be re-declared within the same scope.
+
+### const
+Scope: Block-scoped, similar to let.
+Hoisting: Variables declared with const are hoisted but not initialized. Accessing them before declaration results in a ReferenceError.
+Re-declaration: Cannot be re-declared within the same scope.
+Assignment: Must be initialized at the time of declaration and cannot be reassigned. However, if the variable is an object or array, the contents can be modified.
+
+### Example
+```js
+function example() {
+    var x = 1;
+    if (true) {
+        var x = 2; // Same variable, re-declared
+        console.log(x); // 2
+    }
+    console.log(x); // 2
+
+    let y = 1;
+    if (true) {
+        let y = 2; // Different variable, block-scoped
+        console.log(y); // 2
+    }
+    console.log(y); // 1
+
+    const z = 1;
+    if (true) {
+        const z = 2; // Different variable, block-scoped
+        console.log(z); // 2
+    }
+    console.log(z); // 1
+}
+```
+
 ## Can you explain `Closures` to me?
 [Mozilla Developer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
 
